@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Atividade - Criação site para ONG</title>
+
+
+    <!-- =====================================================
+         ÍCONE DA PÁGINA
+         ===================================================== -->
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="../images/Unidos_pela_causa.png"
+    >
+
+
+    <!-- =====================================================
+         CONEXÃO COM O ARQUIVO CSS
+         ===================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="../CSS/index.css"
+    >
+
+</head>
+
+
+
+<body>
+
+
+    <!-- =====================================================
+         CABEÇALHO
+         ===================================================== -->
+
+    <header>
+
+        <h1>ONG - Campanha do Agasalho</h1>
+
+
+        <!-- =================================================
+             MENU DE NAVEGAÇÃO
+             ================================================= -->
+
+        <nav>
+
+
+            <!-- Controle do menu hambúrguer -->
+
+            <input
+                type="checkbox"
+                id="menu-toggle"
+                class="menu-toggle"
+            >
+
+
+            <!-- Botão hambúrguer -->
+
+            <label
+                for="menu-toggle"
+                class="menu-button"
+                aria-label="Abrir ou fechar menu"
+            >
+
+                <span class="barra"></span>
+
+                <span class="barra"></span>
+
+                <span class="barra"></span>
+
+            </label>
+
+
+            <!-- =================================================
+                 MENU PRINCIPAL
+                 ================================================= -->
+
+            <ul class="menu">
+
+
+                <!-- INÍCIO -->
+
+                <li>
+
+                    <a href="#inicio">
+                        Início
+                    </a>
+
+                </li>
+
+
+                <!-- =================================================
+                     SOBRE A ONG + SUBMENU
+                     ================================================= -->
+
+                <li class="dropdown">
+
+
+                    <!-- Controle do submenu -->
+
+                    <input
+                        type="checkbox"
+                        id="submenu-toggle"
+                        class="dropdown-toggle"
+                    >
+
+
+                    <!-- Botão do submenu -->
+
+                    <label
+                        for="submenu-toggle"
+                        class="dropdown-label"
+                    >
+
+                        Sobre a ONG ▾
+
+                    </label>
+
+
+                    <!-- Submenu -->
+
+                    <ul class="submenu">
+
+
+                        <li>
+
+                            <a href="#sobre">
+                                Sobre a ONG
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a href="#missao">
+                                Nossa missão
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a href="#objetivos">
+                                Nossos objetivos
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+                <!-- INFORMAÇÕES -->
+
+                <li>
+
+                    <a href="#informacoes">
+                        Informações
+                    </a>
+
+                </li>
+
+
+                <!-- CONTATO -->
+
+                <li>
+
+                    <a href="#contato">
+                        Contato
+                    </a>
+
+                </li>
+
+
+                <!-- PROJETOS -->
+
+                <li>
+
+                   <a href="#projetos">Projetos e Ações</a>
+            
+
+                </li>
+
+
+                <!-- NOSSOS VOLUNTÁRIOS -->
+
+                <li>
+
+                    <a href="#voluntarios">Nossos Voluntários</a>
+
+                </li>
+
+
+                <!-- CADASTRO -->
+
+                <li>
+
+                    <a href="#cadastro">Doe ou Seja Voluntário</a>
+
+                </li>
+
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         CONTÊINER PRINCIPAL DA SPA
+
+         O id="app" identifica o elemento que será manipulado
+         posteriormente pelo JavaScript.
+
+         Neste momento o conteúdo continua sendo HTML normal.
+         Posteriormente o JavaScript poderá limpar este
+         contêiner e inserir o conteúdo correspondente ao hash.
+         ===================================================== -->
+
+    <main id="app">
+
+
+        <!-- =================================================
+             SEÇÃO INÍCIO
+             ================================================= -->
+
+        <section id="inicio">
+
+
+            <h2>
+                Início
+            </h2>
+
+
+            <p>
+
+                Bem-vindo ao site da nossa ONG. Nossa missão é
+                arrecadar agasalhos, roupas e cobertores para ajudar
+                pessoas em situação de vulnerabilidade durante os
+                períodos de frio.
+
+            </p>
+
+
+            <p>
+
+                Aqui você poderá conhecer nossas ações, descobrir
+                como realizar uma doação e também saber como se
+                tornar um voluntário da nossa campanha.
+
+            </p>
+
+
+            <img
+                src="../images/Unidos_pela_causa.png"
+                alt="Voluntários da ONG realizando uma campanha de arrecadação de agasalhos"
+                width="400"
+                height="400"
+            >
+
+
+        </section>
+
+
+        <!-- =================================================
+             SEÇÃO SOBRE A ONG
+             ================================================= -->
+
+        <section id="sobre">
+
+
+            <h2>
+                Sobre a ONG
+            </h2>
+
+
+            <p>
+
+                Nossa ONG realiza campanhas de arrecadação de
+                agasalhos, roupas e cobertores para serem
+                destinados a pessoas e famílias que enfrentam
+                dificuldades durante o período de frio.
+
+            </p>
+
+
+            <!-- MISSÃO -->
+
+            <h3 id="missao">
+
+                <a href="#missao">Nossa missão</a>
+
+
+            <!-- OBJETIVOS -->
+
+            <h3 id="objetivos">
+                <a href="#objetivos">Nossos objetivos</a>
+
+        </section>
+
+
+        <!-- =================================================
+             SEÇÃO INFORMAÇÕES
+             ================================================= -->
+
+        <section id="informacoes">
+
+
+            <h2>
+                Informações
+            </h2>
+
+
+            <p>
+
+                Nossa campanha recebe doações de agasalhos,
+                roupas de frio e cobertores em boas condições
+                de uso. As doações são organizadas e destinadas
+                às pessoas que mais precisam.
+
+            </p>
+
+
+            <img
+                src="../images/Campanha_do_Agasalho.png"
+                alt="Panfleto da campanha do agasalho"
+                width="400"
+                height="400"
+            >
+
+
+            <h3>
+
+                Como fazer uma doação
+
+            </h3>
+
+
+            <p>
+
+                Separe roupas, agasalhos ou cobertores que estejam
+                em boas condições de uso e entre em contato com a
+                ONG para saber como realizar a entrega.
+
+            </p>
+
+
+            <h3>
+
+                Seja um voluntário
+
+            </h3>
+
+
+            <p>
+
+                Você também pode contribuir com seu tempo
+                participando da organização, arrecadação e
+                distribuição dos agasalhos.
+
+            </p>
+
+
+        </section>
+
+
+        <!-- =================================================
+             SEÇÃO CONTATO
+             ================================================= -->
+
+        <section id="contato">
+
+
+            <h2>
+                Contato
+            </h2>
+
+
+            <p>
+
+                Para realizar uma doação, tirar dúvidas ou
+                participar como voluntário, entre em contato
+                conosco pelos dados abaixo.
+
+            </p>
+
+
+            <p>
+
+                <strong>
+                    Telefone:
+                </strong>
+
+                (11) 99999-9999
+
+            </p>
+
+
+            <p>
+
+                <strong>
+                    E-mail:
+                </strong>
+
+                contato@ongagasalho.com
+
+            </p>
+
+
+            <img
+                src="../images/Cartaz.jpg"
+                alt="Imagem de contato"
+                width="500"
+                height="350"
+            >
+
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         RODAPÉ
+         ===================================================== -->
+
+    <footer>
+
+
+        <h2>
+            Informações finais
+        </h2>
+
+
+        <p>
+
+            © 2026 - ONG Campanha do Agasalho.
+            Todos os direitos reservados.
+
+        </p>
+
+
+    </footer>
+
+    <script type="module" src="../JS/main.js"></script>
+
+</body>
+
+</html>

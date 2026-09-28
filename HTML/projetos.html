@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projetos - ONG Campanha do Agasalho</title>
+
+    <link
+        rel="stylesheet"
+        href="../CSS/projetos.css"
+    >
+</head>
+
+<body>
+
+<header>
+
+    <h1>Projetos e Ações da ONG</h1>
+
+    <p>
+        Conheça nossas iniciativas e descubra como você pode
+        contribuir para a Campanha do Agasalho.
+    </p>
+
+</header>
+
+<main id="app"></main>
+
+<footer>
+
+    <p>
+        © 2026 - ONG Campanha do Agasalho.
+        Todos os direitos reservados.
+    </p>
+
+</footer>
+
+<script type="module">
+    import { mostrarProjetos } from "../JS/Modules/views.js";
+
+    const app = document.getElementById("app");
+
+    app.innerHTML = mostrarProjetos();
+</script>
+
+</body>
+
+</html>
