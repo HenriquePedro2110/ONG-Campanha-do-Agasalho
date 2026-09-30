@@ -35,3 +35,7 @@ O desenvolvimento utiliza uma estrutura de branches baseada no GitFlow:
 ## Responsividade
 
 A interface foi desenvolvida para se adaptar a diferentes tamanhos de tela, utilizando CSS Grid, Flexbox e Media Queries.
+
+## Controle de versão
+
+O projeto utiliza GitFlow para organizar o desenvolvimento por meio das branches main, develop, feature e hotfix.
