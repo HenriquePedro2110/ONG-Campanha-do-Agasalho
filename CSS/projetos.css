@@ -23,6 +23,49 @@
             --raio: 8px;
         }
 
+
+
+        /* =====================================================
+   MODO ESCURO
+   ===================================================== */
+
+body.modo-escuro {
+    --cor-fundo: #121212;
+    --cor-branco: #1E1E1E;
+    --cor-neutra: #3A3A3A;
+
+    --cor-texto: #F5F5F5;
+    --cor-texto-claro: #E0E0E0;
+
+    --cor-primaria: #164477;
+    --cor-primaria-escura: #0B2A4A;
+
+    --cor-secundaria: #F4A62A;
+    --cor-foco: #8AB4FF;
+}
+
+#tema-toggle {
+    background-color: var(--cor-branco);
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-neutra);
+    border-radius: var(--raio);
+    padding: var(--espaco-1) var(--espaco-2);
+    margin-bottom: var(--espaco-2);
+    font-size: var(--fonte-pequena);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#tema-toggle:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+}
+
+#tema-toggle:focus {
+    outline: 3px solid var(--cor-foco);
+    outline-offset: 2px;
+}
+
         * {
             box-sizing: border-box;
         }
