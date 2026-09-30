@@ -17,7 +17,7 @@ export function mostrarInicio() {
             </p>
 
             <img
-                src="../images/Unidos_pela_causa.png"
+                src="../images/Unidos_pela_causa.webp"
                 alt="Voluntários da ONG realizando uma campanha de arrecadação de agasalhos"
                 width="400"
                 height="400"
@@ -91,7 +91,7 @@ export function mostrarInformacoes() {
             </p>
 
             <img
-                src="../images/Campanha_do_Agasalho.png"
+                src="../images/Campanha_do_Agasalho.webp"
                 alt="Panfleto da campanha do agasalho"
                 width="400"
                 height="400"
@@ -136,7 +136,7 @@ export function mostrarContato() {
             </p>
 
             <img
-                src="../images/Cartaz.jpg"
+                src="../images/Cartaz.webp"
                 alt="Imagem de contato"
                 width="500"
                 height="350"
